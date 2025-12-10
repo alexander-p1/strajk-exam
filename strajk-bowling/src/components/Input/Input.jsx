@@ -12,7 +12,7 @@ function Input({
 }) {
   return (
     <section className="input">
-      <label className="input__label" htmlFor="name" >{label}</label>
+      <label className="input__label" htmlFor={name} >{label}</label>
       <input
         type={type}
         className={`input__field ${customClass ? customClass : ""}`}
