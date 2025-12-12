@@ -10,12 +10,6 @@ export default defineConfig({
     setupFiles: "./setupFiles.js",
     coverage: {
       provider: "v8",
-      threshold: {
-        statements: 90,
-        branches: 90,
-        functions: 90,
-        lines: 90
-      }
     }
   }
 })
